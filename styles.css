@@ -92,7 +92,8 @@ body {
 .contact-info__block {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
+  flex:1
 }
 
 .contact-info__block--center {
@@ -104,7 +105,9 @@ body {
   color: var(--secondary-text-color);
   text-decoration: none;
   display: flex;
+  align-items: center;
   justify-content: start;
+   
 }
 
 .contact-info__item:not(:last-child) {
